@@ -1,6 +1,6 @@
 # Mvc5 Angular2 SignalR
 
-Wprking Project using Mvc5 - Angular2 - SignalR
+Working Starter Project using Mvc5 - Angular2 - SignalR
 
 Inital setup created from the [Angular Tutorial](https://angular.io/docs/ts/latest/cookbook/visual-studio-2015.html)
 
