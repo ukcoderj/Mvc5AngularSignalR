@@ -6,7 +6,7 @@ Inital setup created from the [Angular Tutorial](https://angular.io/docs/ts/late
 
 MVC5 SignalR created using the [Microsoft Tutorial](https://docs.microsoft.com/en-us/aspnet/signalr/overview/getting-started/tutorial-getting-started-with-signalr-and-mvc)
 
-Angular2 SignalR creating with hints from this [excellent project](https://github.com/FabianGosebrink/ASPNETCore-Angular-SignalR-Typescript)
+Angular2 SignalR creating with hints from this [excellent project for .NET Core](https://github.com/FabianGosebrink/ASPNETCore-Angular-SignalR-Typescript)
 
 
 ## Setup
