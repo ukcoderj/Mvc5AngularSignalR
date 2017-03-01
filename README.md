@@ -1,4 +1,4 @@
-# Mvc5 Angular2 SignalR
+# Mvc5 Angular2 SignalR Seed Project
 
 Working Starter Project using Mvc5 - Angular2 - SignalR
 
