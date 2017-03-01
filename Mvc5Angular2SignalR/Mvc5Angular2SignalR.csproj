@@ -148,7 +148,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -189,10 +188,12 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Hubs\ChatHub.cs" />
+    <Compile Include="Models\ChatMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\components\chat\chat.component.html" />
     <Content Include="app\components\test2\test2.component.html" />
     <Content Include="app\components\test\test.component.html" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
@@ -271,8 +272,11 @@
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
     <TypeScriptCompile Include="app\app.routes.ts" />
+    <TypeScriptCompile Include="app\components\chat\chat.component.ts" />
     <TypeScriptCompile Include="app\components\test2\test2.component.ts" />
     <TypeScriptCompile Include="app\components\test\test.component.ts" />
+    <TypeScriptCompile Include="app\models\ChatMessage.ts" />
+    <TypeScriptCompile Include="app\services\signalr.service.ts" />
     <TypeScriptCompile Include="main.ts" />
   </ItemGroup>
   <PropertyGroup>

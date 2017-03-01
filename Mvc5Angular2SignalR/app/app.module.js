@@ -10,10 +10,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
+var forms_1 = require('@angular/forms');
 var app_routes_1 = require('./app.routes');
 var app_component_1 = require('./app.component');
+var chat_component_1 = require('./components/chat/chat.component');
 var test_component_1 = require('./components/test/test.component');
 var test2_component_1 = require('./components/test2/test2.component');
+var signalr_service_1 = require('./services/signalr.service');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -21,12 +24,17 @@ var AppModule = (function () {
         core_1.NgModule({
             imports: [
                 platform_browser_1.BrowserModule,
+                forms_1.FormsModule,
                 app_routes_1.routing
             ],
             declarations: [
                 app_component_1.AppComponent,
+                chat_component_1.ChatComponent,
                 test_component_1.TestComponent,
                 test2_component_1.Test2Component
+            ],
+            providers: [
+                signalr_service_1.SignalRService
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 
