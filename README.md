@@ -12,6 +12,7 @@ Angular2 SignalR creating with hints from this [excellent project for .NET Core]
 ## Setup
 
 - Clone this repository.
+- Run npm install at the folder level of package.json
 - Run in VS2015 or greater.
 
 Note: The project does not include webpack, bundling or minification.
