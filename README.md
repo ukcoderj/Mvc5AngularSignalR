@@ -1,6 +1,6 @@
-# Mvc5 Angular2 SignalR Seed Project
+# Mvc5 Angular (not AngularJS) SignalR Seed Project
 
-Working Starter Project using Mvc5 - Angular2 - SignalR
+Working Starter Project using Mvc5 - Angular - SignalR
 
 Inital setup created from the [Angular Tutorial](https://angular.io/docs/ts/latest/cookbook/visual-studio-2015.html)
 
@@ -21,6 +21,6 @@ Urls:
 
 http://localhost:58056/Home/Chat -> MVC5 Version
 
-http://localhost:58056/index.html#/test -> Angular2 Version
+http://localhost:58056/index.html#/test -> Angular Version
 
 
