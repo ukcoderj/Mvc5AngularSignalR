@@ -12,7 +12,8 @@ Angular2 SignalR creating with hints from this [excellent project for .NET Core]
 ## Setup
 
 - Clone this repository.
-- Run npm install at the folder level of package.json
+- If using VS2015, you will need to go to Tools > Extensions And Updates > Online and Install Typescript 2.7.2
+- Run npm install at the folder level of package.json (i.e. {root}\Mvc5Angular2SignalR\Mvc5Angular2SignalR)
 - Run in VS2015 or greater.
 
 Note: The project does not include webpack, bundling or minification.

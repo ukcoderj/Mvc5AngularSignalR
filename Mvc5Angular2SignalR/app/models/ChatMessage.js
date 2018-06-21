@@ -1,5 +1,6 @@
 "use strict";
-var ChatMessage = (function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+var ChatMessage = /** @class */ (function () {
     function ChatMessage(message, date) {
         this.Message = message;
         this.Sent = new Date(date);

@@ -8,10 +8,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var signalr_service_1 = require('../../services/signalr.service');
-var ChatMessage_1 = require('../../models/ChatMessage');
-var ChatComponent = (function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = require("@angular/core");
+var signalr_service_1 = require("../../services/signalr.service");
+var ChatMessage_1 = require("../../models/ChatMessage");
+var ChatComponent = /** @class */ (function () {
     function ChatComponent(_signalRService, _ngZone) {
         this._signalRService = _signalRService;
         this._ngZone = _ngZone;
@@ -42,10 +43,11 @@ var ChatComponent = (function () {
         core_1.Component({
             selector: 'chat-component',
             templateUrl: 'app/components/chat/chat.component.html'
-        }), 
-        __metadata('design:paramtypes', [signalr_service_1.SignalRService, core_1.NgZone])
+        }),
+        __metadata("design:paramtypes", [signalr_service_1.SignalRService, typeof (_a = typeof core_1.NgZone !== "undefined" && core_1.NgZone) === "function" && _a || Object])
     ], ChatComponent);
     return ChatComponent;
+    var _a;
 }());
 exports.ChatComponent = ChatComponent;
 //# sourceMappingURL=chat.component.js.map

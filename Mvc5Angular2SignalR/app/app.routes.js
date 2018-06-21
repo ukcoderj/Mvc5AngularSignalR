@@ -1,7 +1,8 @@
 "use strict";
-var router_1 = require('@angular/router');
-var test_component_1 = require('./components/test/test.component');
-var test2_component_1 = require('./components/test2/test2.component');
+Object.defineProperty(exports, "__esModule", { value: true });
+var router_1 = require("@angular/router");
+var test_component_1 = require("./components/test/test.component");
+var test2_component_1 = require("./components/test2/test2.component");
 var appRoutes = [
     { path: 'test', component: test_component_1.TestComponent },
     { path: 'test2', component: test2_component_1.Test2Component },
